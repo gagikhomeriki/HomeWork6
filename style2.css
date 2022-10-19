@@ -1,0 +1,55 @@
+.headerbox{
+    border: solid black 1px;
+    background-color: lightskyblue;
+    margin: 0 auto;
+    width: 700px;
+    height: 100px;
+    transition: all 2s;
+    transition-timing-function:linear 
+
+}
+
+li{
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+nav{
+    margin-left: 185px;
+}
+
+
+.home:hover{
+    font-size: 30px;
+    
+}
+
+.aboutus:hover{
+    font-size: 30px;
+}
+
+.contactus:hover{
+    font-size: 30px;
+}
+
+img{
+    margin-top: 110px;
+    margin-left: 500px;
+    animation-name: spinning;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    animation-duration: 10000ms;
+    animation-timing-function: linear; 
+
+}
+
+@keyframes spinning{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
